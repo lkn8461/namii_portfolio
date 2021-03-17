@@ -21,6 +21,7 @@ nav ul li a:after{content: ""; width: 0; height: 10px; position: absolute; botto
 nav ul li a:hover:after{right: 0; width: 50%;}
 nav .close{width: 2.5vw; position: absolute; top: 50px; right: 50px;}
 /*intro*/
+section.intro p{font-size: 1vw; text-align: center; margin: 48vw 0 0 35vw; font-weight: bold;}
 .intro{width: 100%; display: flex; justify-content: space-between; background-color: #d8e9ef; position: relative;}
 .intro .logo{width: 15vw; margin: 14vw 0 0 40vw; position: absolute;}
 .intro .logo a{position: relative; z-index: 10;}
