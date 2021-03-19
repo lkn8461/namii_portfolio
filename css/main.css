@@ -364,7 +364,7 @@ footer span{font-weight: bold;}
     .focus .focus_close{width: 50px;}
 }
 @media screen and (max-width:480px){
-    /*header*/
+    /*header intro*/
     section{float: left;}
     header .logo{width: 8vw; margin: 2vw 0 0 1vw;}
     header .menu_btn{width: 8vw; margin: 3vw;}
@@ -383,12 +383,12 @@ footer span{font-weight: bold;}
     .intro ul li:nth-child(3){top: 20px; left: 60px; width: 5vw;}
     .intro ul li:last-child{top: 60px; left: 45px;}
     /*프로필*/
-    section.profile{height: 210vw; background-color: #d8e9ef; flex-flow: row wrap;}
+    section.profile{height: 220vw; background-color: #d8e9ef; flex-flow: row wrap;}
     .profile_left{padding: 0 5vw 0 6vw; height: 80vw;}
     .profile_left img{width: 65%; margin: 2vw 0 0 16vw;}
     .profile_left h1{font-size: 7vw; margin: 10vw 0 4vw 0;}
     .profile_left p{font-size: 4vw; margin: 5vw;}
-    .profile_right{background-color: #fff; width: 100%; height: 90vw; margin-top: 45vw;}
+    .profile_right{background-color: #fff; width: 100%; height: 110vw; margin-top: 45vw;}
     .profile_right .edu_skill h1, .active_cert h1{margin-bottom: 3vw; font-size: 3vw;}
     .profile_right .edu_skill p, .active_cert p{margin-bottom: 2vw; font-size: 1.5vw;}
     .profile_right .edu_skill h3, .active_cert h3{font-size: 2.5vw;}
@@ -434,7 +434,7 @@ footer span{font-weight: bold;}
     .swiper-slide .web_left{margin: 4vw 0 0 0;}
     .swiper-slide .web_left h1{font-size: 4vw; margin: 5vw 0 3vw 0;}
     .swiper-slide .web_left h4{line-height: 3.5vw; font-size: 2.5vw;}
-    .swiper-slide .web_left .process ul li{border: 1px solid #000; padding: 1vw; font-weight: bold; margin: 3vw 10vw; width: 13vw; height: 13vw; padding-top: 4vw;}
+    .swiper-slide .web_left .process ul li{border: 1px solid #000; padding: 1vw; font-weight: bold; margin: 3vw 10vw; width: 15vw; height: 15vw; padding-top: 4.5vw; font-size: 2.5vw;}
     .swiper-slide .web_left .color img{width: 35vw;}
     .swiper-slide .web_right img{width: 55vw; margin: 0;}
     .swiper-slide .web_right .b1 a{font-size: 3vw; padding: 2vw 3vw;}
@@ -480,4 +480,40 @@ footer span{font-weight: bold;}
     footer p{font-size: 3vw; background-color: #d8e9ef;}
     /*편집디자인 팝업 갤러리*/
     .focus .focus_close{top: 32%; left: 77%; width: 40px;}
+}
+@media screen and (max-width: 375px){
+    /*intro*/
+    section.intro p{font-size: 3vw; margin: 60vw 0 0 6vw;}
+    .intro ul li:nth-child(2){top: 55px; left: 25px;}
+    .intro ul li:nth-child(3){top: 12px; left: 45px;}
+    .intro ul li:last-child{top: 45px; left: 45px;}
+    /*프로필*/
+    .profile_left{padding: 0 5vw 0 6vw; height: 75vw;}
+    .profile_right{height: 130vw;}
+    /*웹디자인*/
+    /*각 슬라이드 배경색*/
+    section.web{height: 210vw;}
+    .web .s1{height: 210vw;}
+    .web .s2{height: 210vw;}
+    .web .s3{height: 210vw;}
+    .web .s4{height: 210vw;}
+    .web .s5{height: 210vw;}
+    /*편집디자인*/
+    /*각 슬라이드 배경색*/
+    section.edit{height: 85vw;}
+    .edit .ss1,.edit .ss2,.edit .ss3,.edit .ss4,.edit .ss5,.edit .ss6,.edit .ss7{height: 85vw;}
+    /*디테일 버튼*/
+    .swiper-slide .eb1 a,.swiper-slide .eb2 a,.swiper-slide .eb3 a,.swiper-slide .eb4 a,.swiper-slide .eb5 a,.swiper-slide .eb6 a,.swiper-slide .eb7 a{font-size: 4vw;}
+    .swiper-slide .r1{width: 55vw; margin: 15vw 8vw 0 0;}
+    .swiper-slide .r4, .swiper-slide .r5{margin: 20vw 2vw 0 0;}
+    /*contact*/
+    section.contact{height: 70vw;}
+    .contact > h1{top: 8vw; font-size: 4vw;}
+    .contact .des{font-size: 2vw; margin: 25vw 2vw 15vw 10vw;}
+    .contact .img_thankyou{margin: 20vw 6vw 0 0;}
+    .contact .img_thankyou .img{width: 22vw; margin-left: 5vw;}
+    .contact .des .email{border-bottom: 3px solid #0b76bd;}
+    .contact .des .phone{border-bottom: 3px solid #e85a71;}
+    /*footer*/
+    footer p{font-size: 3vw; background-color: #d8e9ef;}
 }
